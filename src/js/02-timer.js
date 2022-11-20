@@ -41,7 +41,7 @@ flatpickr(dateInput,{ enableTime: true,
     time_24hr: true,
     defaultDate: new Date(),
     minuteIncrement: 1, onClose(selectedDates) {
-    console.log(selectedDates[0]); SelectTime=selectedDates[0]; if (selectedDates[0] - new Date() < 0) {
+    console.log(selectedDates[0]);  if (selectedDates[0] - new Date() < 0) {
          alert('Please choose a date in the future');
     
         
