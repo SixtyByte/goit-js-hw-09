@@ -2,7 +2,7 @@ const startButton=document.querySelector (`[data-start]`);
 const stopButton=document.querySelector (`[data-stop]`);
 startButton.addEventListener(`click`, start)
 stopButton.addEventListener(`click`,stopChangeColor)
-
+let timer
 function start() { stopButton.disabled=false;
     startButton.disabled=true; timer=setInterval(startChangeColor,1000)
   
