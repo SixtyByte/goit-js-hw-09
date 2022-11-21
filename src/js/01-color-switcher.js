@@ -15,7 +15,7 @@ document.body.setAttribute('style', `background-color:${colorGen}`)
 
 function stopChangeColor(){
 clearInterval(timer);
-timer=null;
+
   stopButton.disabled=true;
   startButton.disabled=false;  
 }
